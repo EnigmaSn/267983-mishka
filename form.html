@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+    <link href="css/normalize.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <!-- div с h1 будет скрыт -->
+        <div class="header__title visibility-hidden">
+          <h1>Магазин "Мишка" - милые штуки ручной работы для дома</h1>
+        </div>
+        <div class="header__logo">
+          <a href="#">
+            <img src="" width="" height="" alt="logotype">
+          </a>
+        </div>
+        <div class="header__sandwich">
+          <a href="#"></a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="knitting-order">
+      <h2>Вязание на заказ</h2>
+      <p>
+        Мы будем рады воплотить в жизнь ваши пожелания!
+        Заполните простую форму и мы свяжемся с вами, чтобы уточнить детали.
+      </p>
+      <form action="https://echo.htmlacademy.ru" method="post" class="knitting-order__form">
+        <h3>Тип</h3>
+        <input type="radio" name="type" value="accessory" id="type1" checked>
+        <label class="form__item" for="type1">Аксессуар для интерьера</label>
+        <input type="radio" name="type" value="toy" id="type2">
+        <label class="form__item" for="type2">Детская игрушка</label>
+        <h3>Цвет</h3>
+        <input type="checkbox" name="color" value="white" id="color1" checked>
+        <label class="form__item" for="color1">Белый</label>
+        <input type="checkbox" name="color" value="gray" id="color2" checked>
+        <label class="form__item" for="color2">Серый</label>
+        <input type="checkbox" name="color" value="tiffany" id="color3">
+        <label class="form__item" for="color3">«Тиффани»</label>
+        <input type="checkbox" name="color" value="black" id="color4">
+        <label class="form__item" for="color4">Черный</label>
+        <input type="checkbox" name="color" value="pink" id="color5">
+        <label class="form__item" for="color5">Розовый</label>
+        <input type="checkbox" name="color" value="orange" id="color6">
+        <label class="form__item" for="color6">Оранжевый</label>
+        <h3>Фио</h3>
+        <label class="form__item--upper" for="name">Имя:</label>
+        <input type="text" name="name" placeholder="Введите ваше имя<sup>&lowast;</sup>" id="name" required>
+        <label class="form__item--upper" for="surname">Фамилия:</label>
+        <input type="text" name="surname" placeholder="Укажите фамилию<sup>&lowast;</sup>" id="surname" required>
+        <label class="form__item--upper" for="middle-name">Отчество:</label>
+        <input type="text" name="middle-name" placeholder="Отчество, если желаете" id="middle-name">
+        <h3>Тел</h3>
+        <label class="form__item--upper visibility-hidden" for="tel">Телефон:</label>
+        <input type="tel" name="tel" placeholder="+7 XXX XX XX<sup>&lowast;</sup>" id="tel" required>
+        <h3>E-mail</h3>
+        <label class="form__item--upper visibility-hidden" for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="Ваш Email<sup>&lowast;</sup>" id="email" required>
+        <h3>Доп</h3>
+        <label class="form__item--upper visibility-hidden" for="additional">Ваши дополнительные пожелания</label>
+        <textarea name="additional" placeholder="Опишите все ваши пожелания к заказу" rows="" cols="" id="additional" ></textarea>
+        <span><sup>&lowast;</sup>Поля обязательны для заполнения</span>
+        <button type="submit" name="button">Отправить заказ</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+      <div class="footer__author">
+        <span>Разработано</span>
+        <a href="http://www.htmlacademy.ru"></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
